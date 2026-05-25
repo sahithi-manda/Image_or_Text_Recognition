@@ -15,8 +15,7 @@ On the first run, the script creates two demo images under `samples/` so you can
 
 For a longer explanation (setup notes, how to read the output, assignment checklist), see:
 
-- **[DOCUMENTATION.docx](DOCUMENTATION.docx)** — formatted for Word / submission  
-- **[DOCUMENTATION.md](DOCUMENTATION.md)** — same content in markdown  
+- **[DOCUMENTATION.docx](DOCUMENTATION.docx)** — formatted for Word / submission    
 
 ---
 
@@ -125,9 +124,7 @@ Project_4_Image or Text Recogination(basic)/
 ├── recognize.py              # Main entry point
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
-├── DOCUMENTATION.md          # Full project write-up
 ├── DOCUMENTATION.docx        # Word version of documentation
-├── export_documentation.py   # Regenerates .docx from doc content
 ├── samples/
 │   ├── create_samples.py     # Creates demo PNGs
 │   ├── sample_object.png     # Created on first run
@@ -192,7 +189,6 @@ EasyOCR installs additional packages (OpenCV headless, scipy, etc.) automaticall
 | File | Purpose |
 |------|---------|
 | `README.md` | Quick reference (this file) |
-| `DOCUMENTATION.md` | Detailed guide in markdown |
 | `DOCUMENTATION.docx` | Same guide for Word / PDF export |
 
 To rebuild the Word doc after editing the export script:
