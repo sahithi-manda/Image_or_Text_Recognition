@@ -1,4 +1,4 @@
-# Project 4: Image or Text Recognition (Basic)
+ Image or Text Recognition (Basic)
 
 A small Python project for **Decode Labs** that runs two kinds of recognition on images—no training, no custom models. Everything uses off-the-shelf libraries and pretrained weights.
 
