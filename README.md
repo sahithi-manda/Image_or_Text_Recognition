@@ -42,8 +42,8 @@ For a longer explanation (setup notes, how to read the output, assignment checkl
 ## Installation
 
 ```bash
-git clone https://github.com/sahithi-manda/Image-Classification-and-OCR.git
-cd Image-Classification-and-OCR
+git clone https://github.com/sahithi-manda/Image_or_Text_Recognition.git
+cd Image_or_Text_Recognition
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
@@ -119,7 +119,7 @@ Result: "Decode Labs 2026"
 ## Project structure
 
 ```
-Image-Classification-and-OCR/
+Image_or_Text_Recognition/
 ├── recognize.py              # Main entry point
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
