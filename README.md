@@ -41,13 +41,12 @@ For a longer explanation (setup notes, how to read the output, assignment checkl
 
 ## Installation
 
-Clone or open the project folder, then:
-
-```powershell
-cd "C:\path\to\Project_4_Image or Text Recogination(basic)"
+```bash
+git clone https://github.com/sahithi-manda/Image-Classification-and-OCR.git
+cd Image-Classification-and-OCR
 
 python -m venv venv
-.\venv\Scripts\activate
+source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -120,7 +119,7 @@ Result: "Decode Labs 2026"
 ## Project structure
 
 ```
-Project_4_Image or Text Recogination(basic)/
+Image-Classification-and-OCR/
 ├── recognize.py              # Main entry point
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
